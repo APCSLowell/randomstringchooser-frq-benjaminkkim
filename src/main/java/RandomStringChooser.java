@@ -1,6 +1,6 @@
 import java.util.*;
 public class RandomStringChooser {
-private Arraylist<String> words;
+private ArrayList<String> words;
   public RandomStringChooser(String[] input) {
     words = new ArrayList<String>();
     for(int i = 0; i < input.length; i++) {
