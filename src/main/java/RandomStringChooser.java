@@ -4,7 +4,7 @@ private ArrayList<String> words;
   public RandomStringChooser(String[] input) {
     words = new ArrayList<String>();
     for(int i = 0; i < input.length; i++) {
-      words.add(i);
+      words.add(input[i]);
     }
   }
   public String getNext() {
